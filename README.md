@@ -7,6 +7,12 @@ Developed by Annemarie Friedrich and Timo Schrader.
 Hint: a more comprehensive library is [DkPro Cassis](https://github.com/dkpro/dkpro-cassis).
 Puima is more lightweight, focusing on reading and modification of CASes. While it's fast, we leave verifying the data structures to the client code.
 
+
+<p align="right">
+  <img src="puima.jpg" width="200">
+</p>
+
+
 ## Usage
 The main usage of this code assumes that you already have XMI files that you want to read or modify (e.g., annotated files that you downlaoded from [INCEpTION](https://inception-project.github.io/)).
 Hence, the best entry points are to check out:

@@ -51,6 +51,7 @@ class Type:
 class TypeSystem:
 
     def __init__(self, typesystem_xml):
+        print("Reading typesystem:", typesystem_xml)
         self.types = {}  # map from type names to the type objects
         with io.open(typesystem_xml, 'r', encoding="utf-8") as f:
             dom = minidom.parse(f)
