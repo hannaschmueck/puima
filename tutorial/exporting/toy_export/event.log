@@ -1,0 +1,43 @@
+{"created":1773578106000,"details":{"projectName":"admin - New project"},"event":"AfterProjectCreatedEvent","id":202720,"user":"admin"}
+{"created":1773578106000,"details":{"admin":{"granted":["ADMIN","CURATOR","USER"],"revoked":[]}},"event":"ProjectPermissionsChangedEvent","id":202721,"user":"admin"}
+{"created":1773578111000,"details":{"state":"CURATION_FINISHED"},"event":"ProjectStateChangedEvent","id":202722,"user":"<SYSTEM>"}
+{"created":1773578143000,"details":{"annemarie.friedrich":{"granted":["USER"],"revoked":[]}},"event":"ProjectPermissionsChangedEvent","id":202723,"user":"admin"}
+{"created":1773578168000,"event":"LayerConfigurationChangedEvent","id":202724,"user":"admin"}
+{"created":1773578196000,"event":"LayerConfigurationChangedEvent","id":202725,"user":"admin"}
+{"created":1773578267000,"details":{"tag":"Outdoor & Sports Toys","tagSet":"ToyTypes"},"event":"TagCreatedEvent","id":202726,"user":"admin"}
+{"created":1773578280000,"details":{"tag":"Games & Puzzles","tagSet":"ToyTypes"},"event":"TagCreatedEvent","id":202727,"user":"admin"}
+{"created":1773578290000,"details":{"tag":"Dolls & Plush Toys","tagSet":"ToyTypes"},"event":"TagCreatedEvent","id":202728,"user":"admin"}
+{"created":1773578309000,"details":{"tag":"Baby & Toddler Toys","tagSet":"ToyTypes"},"event":"TagCreatedEvent","id":202729,"user":"admin"}
+{"created":1773578428000,"details":{"documentName":"toytext.txt","format":"text","state":"NEW"},"document_name":"toytext.txt","event":"AfterDocumentCreatedEvent","id":202730,"user":"admin"}
+{"created":1773578431000,"details":{"state":"NEW","previousState":"CURATION_FINISHED"},"event":"ProjectStateChangedEvent","id":202731,"user":"<SYSTEM>"}
+{"annotator":"admin","created":1773578436000,"details":{"state":"INPROGRESS","previousState":"NEW","annotatorState":"INPROGRESS"},"document_name":"toytext.txt","event":"AnnotationStateChangeEvent","id":202732,"user":"admin"}
+{"created":1773578436000,"details":{"state":"ANNOTATION_INPROGRESS","previousState":"NEW"},"document_name":"toytext.txt","event":"DocumentStateChangedEvent","id":202733,"user":"admin"}
+{"annotator":"admin","created":1773578436000,"document_name":"toytext.txt","event":"DocumentOpenedEvent","id":202734,"user":"admin"}
+{"created":1773578441000,"details":{"state":"ANNOTATION_INPROGRESS","previousState":"NEW"},"event":"ProjectStateChangedEvent","id":202735,"user":"<SYSTEM>"}
+{"annotator":"admin","created":1773578484000,"details":{"addr":2648,"begin":29,"end":35,"type":"webanno.custom.ToyEntity","text":"rattle"},"document_name":"toytext.txt","event":"SpanCreatedEvent","id":202736,"user":"admin"}
+{"created":1773578499000,"event":"LayerConfigurationChangedEvent","id":202737,"user":"admin"}
+{"annotator":"admin","created":1773578502000,"document_name":"toytext.txt","event":"DocumentOpenedEvent","id":202738,"user":"admin"}
+{"annotator":"admin","created":1773578506000,"details":{"feature":"ToyType","value":"Baby & Toddler Toys","annotation":{"addr":2648,"begin":29,"end":35,"type":"webanno.custom.ToyEntity","text":"rattle"}},"document_name":"toytext.txt","event":"FeatureValueUpdatedEvent","id":202739,"user":"admin"}
+{"annotator":"admin","created":1773578510000,"details":{"addr":2653,"begin":130,"end":140,"type":"webanno.custom.ToyEntity","text":"plush bear"},"document_name":"toytext.txt","event":"SpanCreatedEvent","id":202740,"user":"admin"}
+{"annotator":"admin","created":1773578512000,"details":{"feature":"ToyType","value":"Dolls & Plush Toys","annotation":{"addr":2653,"begin":130,"end":140,"type":"webanno.custom.ToyEntity","text":"plush bear"}},"document_name":"toytext.txt","event":"FeatureValueUpdatedEvent","id":202741,"user":"admin"}
+{"annotator":"admin","created":1773578518000,"details":{"addr":2658,"begin":216,"end":225,"type":"webanno.custom.ToyEntity","text":"soft doll"},"document_name":"toytext.txt","event":"SpanCreatedEvent","id":202742,"user":"admin"}
+{"annotator":"admin","created":1773578519000,"details":{"feature":"ToyType","value":"Dolls & Plush Toys","annotation":{"addr":2658,"begin":216,"end":225,"type":"webanno.custom.ToyEntity","text":"soft doll"}},"document_name":"toytext.txt","event":"FeatureValueUpdatedEvent","id":202743,"user":"admin"}
+{"annotator":"admin","created":1773578522000,"details":{"addr":2663,"begin":309,"end":315,"type":"webanno.custom.ToyEntity","text":"puzzle"},"document_name":"toytext.txt","event":"SpanCreatedEvent","id":202744,"user":"admin"}
+{"annotator":"admin","created":1773578523000,"details":{"feature":"ToyType","value":"Games & Puzzles","annotation":{"addr":2663,"begin":309,"end":315,"type":"webanno.custom.ToyEntity","text":"puzzle"}},"document_name":"toytext.txt","event":"FeatureValueUpdatedEvent","id":202745,"user":"admin"}
+{"annotator":"admin","created":1773578527000,"details":{"addr":2668,"begin":405,"end":409,"type":"webanno.custom.ToyEntity","text":"ball"},"document_name":"toytext.txt","event":"SpanCreatedEvent","id":202746,"user":"admin"}
+{"annotator":"admin","created":1773578528000,"details":{"feature":"ToyType","value":"Outdoor & Sports Toys","annotation":{"addr":2668,"begin":405,"end":409,"type":"webanno.custom.ToyEntity","text":"ball"}},"document_name":"toytext.txt","event":"FeatureValueUpdatedEvent","id":202747,"user":"admin"}
+{"annotator":"admin","created":1773578533000,"details":{"addr":2673,"begin":510,"end":519,"type":"webanno.custom.ToyEntity","text":"jump rope"},"document_name":"toytext.txt","event":"SpanCreatedEvent","id":202748,"user":"admin"}
+{"annotator":"admin","created":1773578534000,"details":{"feature":"ToyType","value":"Outdoor & Sports Toys","annotation":{"addr":2673,"begin":510,"end":519,"type":"webanno.custom.ToyEntity","text":"jump rope"}},"document_name":"toytext.txt","event":"FeatureValueUpdatedEvent","id":202749,"user":"admin"}
+{"annotator":"admin","created":1773578538000,"details":{"addr":2678,"begin":588,"end":598,"type":"webanno.custom.ToyEntity","text":"plush bear"},"document_name":"toytext.txt","event":"SpanCreatedEvent","id":202750,"user":"admin"}
+{"annotator":"admin","created":1773578541000,"details":{"feature":"ToyType","value":"Dolls & Plush Toys","annotation":{"addr":2678,"begin":588,"end":598,"type":"webanno.custom.ToyEntity","text":"plush bear"}},"document_name":"toytext.txt","event":"FeatureValueUpdatedEvent","id":202751,"user":"admin"}
+{"annotator":"admin","created":1773578544000,"details":{"addr":2683,"begin":709,"end":715,"type":"webanno.custom.ToyEntity","text":"puzzle"},"document_name":"toytext.txt","event":"SpanCreatedEvent","id":202752,"user":"admin"}
+{"annotator":"admin","created":1773578546000,"details":{"feature":"ToyType","value":"Games & Puzzles","annotation":{"addr":2683,"begin":709,"end":715,"type":"webanno.custom.ToyEntity","text":"puzzle"}},"document_name":"toytext.txt","event":"FeatureValueUpdatedEvent","id":202753,"user":"admin"}
+{"annotator":"admin","created":1773578549000,"details":{"addr":2688,"begin":787,"end":791,"type":"webanno.custom.ToyEntity","text":"doll"},"document_name":"toytext.txt","event":"SpanCreatedEvent","id":202754,"user":"admin"}
+{"annotator":"admin","created":1773578550000,"details":{"feature":"ToyType","value":"Dolls & Plush Toys","annotation":{"addr":2688,"begin":787,"end":791,"type":"webanno.custom.ToyEntity","text":"doll"}},"document_name":"toytext.txt","event":"FeatureValueUpdatedEvent","id":202755,"user":"admin"}
+{"annotator":"admin","created":1773578555000,"details":{"addr":2693,"begin":906,"end":912,"type":"webanno.custom.ToyEntity","text":"rattle"},"document_name":"toytext.txt","event":"SpanCreatedEvent","id":202756,"user":"admin"}
+{"annotator":"admin","created":1773578557000,"details":{"feature":"ToyType","value":"Baby & Toddler Toys","annotation":{"addr":2693,"begin":906,"end":912,"type":"webanno.custom.ToyEntity","text":"rattle"}},"document_name":"toytext.txt","event":"FeatureValueUpdatedEvent","id":202757,"user":"admin"}
+{"annotator":"admin","created":1773579321000,"document_name":"toytext.txt","event":"DocumentOpenedEvent","id":202758,"user":"admin"}
+{"annotator":"admin","created":1773579334000,"document_name":"toytext.txt","event":"DocumentOpenedEvent","id":202759,"user":"admin"}
+{"annotator":"admin","created":1773582926000,"document_name":"toytext.txt","event":"DocumentOpenedEvent","id":202763,"user":"admin"}
+{"annotator":"admin","created":1773582963000,"document_name":"toytext.txt","event":"DocumentOpenedEvent","id":202764,"user":"admin"}
+{"annotator":"admin","created":1773842911000,"document_name":"toytext.txt","event":"DocumentOpenedEvent","id":203606,"user":"admin"}

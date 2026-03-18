@@ -1,0 +1,73 @@
+2026-03-15 13:35:06 INFO [admin] ProjectServiceImpl - Created project [admin - New project](44)
+2026-03-15 13:35:06 INFO [admin] ProjectServiceImpl - Created permission [MANAGER] for user admin on project [admin - New project](44)
+2026-03-15 13:35:06 INFO [admin] ProjectServiceImpl - Created permission [CURATOR] for user admin on project [admin - New project](44)
+2026-03-15 13:35:06 INFO [admin] ProjectServiceImpl - Created permission [ANNOTATOR] for user admin on project [admin - New project](44)
+2026-03-15 13:35:06 INFO [admin] AnnotationSchemaServiceImpl - Created layer [de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token](366) in project [admin - New project](44)
+2026-03-15 13:35:06 INFO [admin] AnnotationSchemaServiceImpl - Created layer [de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence](367) in project [admin - New project](44)
+2026-03-15 13:35:43 INFO [admin] ProjectServiceImpl - Created permission [ANNOTATOR] for user annemarie.friedrich on project [ToyProject](44)
+2026-03-15 13:36:08 INFO [admin] AnnotationSchemaServiceImpl - Created layer [webanno.custom.ToyEntity](368) in project [ToyProject](44)
+2026-03-15 13:36:08 INFO [admin] SearchServiceImpl - Re-indexing project [ToyProject](44). This may take a while...
+2026-03-15 13:36:08 WARN [admin] SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2026-03-15 13:36:08 ERROR [admin] SqlExceptionHelper - (conn=208912) Duplicate entry '44' for key 'UK_index_project'
+2026-03-15 13:36:36 INFO [admin] AnnotationSchemaServiceImpl - Created feature [ToyType](671) in project [ToyProject](44)
+2026-03-15 13:36:36 INFO [admin] SearchServiceImpl - Re-indexing project [ToyProject](44). This may take a while...
+2026-03-15 13:36:36 INFO [admin] SearchServiceImpl - Re-indexing project [ToyProject](44) complete!
+2026-03-15 13:36:45 INFO [admin] AnnotationSchemaServiceImpl - Created tagset [ToyTypes](310) in project [ToyProject](44)
+2026-03-15 13:37:47 INFO [admin] AnnotationSchemaServiceImpl - Created tag [Outdoor & Sports Toys](1901) in tagset [ToyTypes](310) in project [ToyProject](44)
+2026-03-15 13:38:00 INFO [admin] AnnotationSchemaServiceImpl - Created tag [Games & Puzzles](1902) in tagset [ToyTypes](310) in project [ToyProject](44)
+2026-03-15 13:38:10 INFO [admin] AnnotationSchemaServiceImpl - Created tag [Dolls & Plush Toys](1903) in tagset [ToyTypes](310) in project [ToyProject](44)
+2026-03-15 13:38:29 INFO [admin] AnnotationSchemaServiceImpl - Created tag [Baby & Toddler Toys](1904) in tagset [ToyTypes](310) in project [ToyProject](44)
+2026-03-15 13:40:28 INFO [admin] DocumentImportExportServiceImpl - Imported CAS with [198] tokens and [9] sentences from file [/srv/inception/repository/project/44/document/9833/source/toytext.txt] (size: 985 bytes)
+2026-03-15 13:40:28 INFO [admin] DocumentServiceImpl - Imported source document [toytext.txt](9833) to project [ToyProject](44)
+2026-03-15 13:40:36 INFO [admin] DocumentServiceImpl - Created annotation document [admin@toytext.txt](10297) in project [ToyProject](44)
+2026-03-15 13:40:36 INFO [admin] AnnotationSchemaServiceImpl - Upgraded CAS of user [admin] for document [toytext.txt](9833) in project [ToyProject](44)
+2026-03-15 13:41:39 INFO [admin] AnnotationSchemaServiceImpl - Updated feature [ToyType](671) in project [ToyProject](44)
+2026-03-15 13:41:39 INFO [admin] SearchServiceImpl - Re-indexing project [ToyProject](44). This may take a while...
+2026-03-15 13:41:39 INFO [admin] SearchServiceImpl - Re-indexing project [ToyProject](44) complete!
+2026-03-15 13:41:42 INFO [admin] AnnotationSchemaServiceImpl - Upgraded CAS of user [admin] for document [toytext.txt](9833) in project [ToyProject](44)
+2026-03-15 13:43:12 INFO [admin] ProjectPermissionsExporter - Exported [4] permissions for project [ToyProject]
+2026-03-15 13:43:12 INFO [admin] DocumentRepositoryExporter - Exported [0] document repositories for project [ToyProject]
+2026-03-15 13:43:12 INFO [admin] KnowledgeBaseExporter - Exported [0] knowledge bases for project [ToyProject]
+2026-03-15 13:43:12 INFO [admin] LayerExporter - Exported [3] layers for project [ToyProject]
+2026-03-15 13:43:12 INFO [admin] TagSetExporter - Exported [1] tagsets for project [ToyProject]
+2026-03-15 13:43:12 INFO [admin] CurationWorkflowExporter - Exported curation workflow settings for project [ToyProject](44)
+2026-03-15 13:43:12 INFO [admin] SourceDocumentExporter - Exported content for source document 1/1: [toytext.txt](9833) in [ToyProject](44)
+2026-03-15 13:43:12 INFO [admin] LoggedEventExporter - Exported [38] logged events for project [ToyProject]
+2026-03-15 13:43:12 INFO [admin] DefaultProjectPreferencesExporter - Exported [0] default preferences for project [ToyProject]
+2026-03-15 13:43:12 INFO [admin] UserProjectPreferencesExporter - Exported [1] user preferences for project [ToyProject]
+2026-03-15 13:43:12 INFO [admin] GazeteerExporter - Exported [0] gazeteers for project [ToyProject]
+2026-03-15 13:43:12 INFO [admin] WorkloadManagerExporter - Exported workload manager for project [ToyProject]
+2026-03-15 13:43:12 INFO [admin] RecommenderExporter - Exported [0] recommenders for project [ToyProject]
+2026-03-15 13:43:12 INFO [admin] DocumentImportExportServiceImpl - Exported annotations for [INITIAL_CAS]@[toytext.txt](9833) in [ToyProject](44) using format [xmi-xml1.1]
+2026-03-15 13:43:12 INFO [admin] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [toytext.txt](9833) in project [ToyProject](44)
+2026-03-15 13:43:12 INFO [admin] DocumentImportExportServiceImpl - Exported annotations for [admin]@[toytext.txt](9833) in [ToyProject](44) using format [xmi-xml1.1]
+2026-03-15 13:43:12 INFO [admin] AnnotationDocumentExporter - Exported annotation document content for user [admin] for source document [toytext.txt](9833) in project [ToyProject](44)
+2026-03-15 13:43:12 INFO [admin] LearningRecordExporter - Exported [0] learning records for project [ToyProject]
+2026-03-15 13:55:21 INFO [admin] AnnotationSchemaServiceImpl - Upgraded CAS of user [admin] for document [toytext.txt](9833) in project [ToyProject](44)
+2026-03-15 13:55:34 INFO [admin] AnnotationSchemaServiceImpl - Upgraded CAS of user [admin] for document [toytext.txt](9833) in project [ToyProject](44)
+2026-03-15 14:55:26 INFO [admin] AnnotationSchemaServiceImpl - Upgraded CAS of user [admin] for document [toytext.txt](9833) in project [ToyProject](44)
+2026-03-15 14:56:03 INFO [admin] AnnotationSchemaServiceImpl - Upgraded CAS of user [admin] for document [toytext.txt](9833) in project [ToyProject](44)
+2026-03-18 14:28:49 INFO [admin] ProjectPermissionsExporter - Exported [4] permissions for project [ToyProject]
+2026-03-18 14:28:49 INFO [admin] DocumentRepositoryExporter - Exported [0] document repositories for project [ToyProject]
+2026-03-18 14:28:49 INFO [admin] KnowledgeBaseExporter - Exported [0] knowledge bases for project [ToyProject]
+2026-03-18 14:28:49 INFO [admin] LayerExporter - Exported [3] layers for project [ToyProject]
+2026-03-18 14:28:49 INFO [admin] TagSetExporter - Exported [1] tagsets for project [ToyProject]
+2026-03-18 14:28:49 INFO [admin] CurationWorkflowExporter - Exported curation workflow settings for project [ToyProject](44)
+2026-03-18 14:28:49 INFO [admin] SourceDocumentExporter - Exported content for source document 1/1: [toytext.txt](9833) in [ToyProject](44)
+2026-03-18 14:28:49 INFO [admin] LoggedEventExporter - Exported [42] logged events for project [ToyProject]
+2026-03-18 14:28:49 INFO [admin] DefaultProjectPreferencesExporter - Exported [0] default preferences for project [ToyProject]
+2026-03-18 14:28:49 INFO [admin] UserProjectPreferencesExporter - Exported [1] user preferences for project [ToyProject]
+2026-03-18 14:28:49 INFO [admin] GazeteerExporter - Exported [0] gazeteers for project [ToyProject]
+2026-03-18 14:28:49 INFO [admin] WorkloadManagerExporter - Exported workload manager for project [ToyProject]
+2026-03-18 14:28:49 INFO [admin] RecommenderExporter - Exported [0] recommenders for project [ToyProject]
+2026-03-18 14:28:49 INFO [admin] AnnotationDocumentExporter - Exported annotation document content for user [INITIAL_CAS] for source document [toytext.txt](9833) in project [ToyProject](44)
+2026-03-18 14:28:49 INFO [admin] AnnotationDocumentExporter - Exported annotation document content for user [admin] for source document [toytext.txt](9833) in project [ToyProject](44)
+2026-03-18 14:28:49 INFO [admin] LearningRecordExporter - Exported [0] learning records for project [ToyProject]
+2026-03-18 15:08:31 INFO [admin] AnnotationSchemaServiceImpl - Upgraded CAS of user [admin] for document [toytext.txt](9833) in project [ToyProject](44)
+2026-03-18 15:08:48 INFO [admin] ProjectPermissionsExporter - Exported [4] permissions for project [ToyProject]
+2026-03-18 15:08:48 INFO [admin] DocumentRepositoryExporter - Exported [0] document repositories for project [ToyProject]
+2026-03-18 15:08:48 INFO [admin] KnowledgeBaseExporter - Exported [0] knowledge bases for project [ToyProject]
+2026-03-18 15:08:48 INFO [admin] LayerExporter - Exported [3] layers for project [ToyProject]
+2026-03-18 15:08:48 INFO [admin] TagSetExporter - Exported [1] tagsets for project [ToyProject]
+2026-03-18 15:08:48 INFO [admin] CurationWorkflowExporter - Exported curation workflow settings for project [ToyProject](44)
+2026-03-18 15:08:48 INFO [admin] SourceDocumentExporter - Exported content for source document 1/1: [toytext.txt](9833) in [ToyProject](44)

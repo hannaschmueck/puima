@@ -1,3 +1,6 @@
+import sys
+sys.path.append('../')
+
 """
 Puima: a lightweight Python-framework to process the text part of UIMA CAS structures.
 
