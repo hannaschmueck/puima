@@ -99,4 +99,4 @@ if __name__ == '__main__':
     #              "extracted_file", "nt_user", "false")
 
     # Command line use: python inception_zip_file_util.py "base dir containing export.zip" 
-    # "export.zip" "zip out path" "annotator_name" "targer dir" "curation true/false"
+    # "export.zip" "zip out path" "annotator_name" "target dir" "curation true/false"
